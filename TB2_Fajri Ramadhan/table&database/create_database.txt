@@ -1,0 +1,11 @@
+CREATE DATABASE perpustakaan;
+
+CREATE TABLE `buku` (
+  `id` int(11) NOT NULL,
+  `judul` varchar(255) NOT NULL,
+  `penulis` varchar(255) NOT NULL,
+  `penerbit` varchar(255) DEFAULT NULL,
+  `tahun_terbit` int(11) DEFAULT NULL,
+  `konten` text DEFAULT NULL,
+  `iktisar` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
