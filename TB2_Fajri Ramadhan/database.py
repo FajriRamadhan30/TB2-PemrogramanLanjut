@@ -3,7 +3,7 @@ import mysql.connector
 def get_db_connection():
     connection = mysql.connector.connect(
         host="localhost",
-        user="root",  
+        user="root", 
         password="",  
         database="perpustakaan"
     )
@@ -26,3 +26,6 @@ def init_db():
     connection.commit()
     cursor.close()
     connection.close()
+
+#Fajri Ramadhan
+#41822010049
