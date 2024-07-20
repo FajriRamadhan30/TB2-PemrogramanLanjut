@@ -14,3 +14,6 @@ class Buku(BaseModel):
 
     def __str__(self) -> str:
         return f"{self.judul} by {self.penulis}"
+
+#Fajri Ramadhan
+#41822010049
